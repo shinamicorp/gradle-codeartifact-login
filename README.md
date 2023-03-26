@@ -8,7 +8,7 @@ Add the following to your `build.gradle.kts` Kotlin script:
 
 ```kotlin
 plugins {
-    id("com.shinami.codeartifact-login") version "0.1.0"
+    id("com.shinami.codeartifact-login") version "0.1.1"
 }
 
 codeArtifact {
@@ -33,7 +33,7 @@ or the equivalent `build.gradle` Groovy script:
 
 ```groovy
 plugins {
-    id "com.shinami.codeartifact-login" version "0.1.0"
+    id "com.shinami.codeartifact-login" version "0.1.1"
 }
 
 codeArtifact {

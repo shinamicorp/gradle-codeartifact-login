@@ -11,7 +11,7 @@ plugins {
 
 group = "com.shinami"
 
-version = "0.1.0"
+version = "0.1.1"
 
 gradlePlugin {
     website.set("https://github.com/shinamicorp/gradle-codeartifact-login")
