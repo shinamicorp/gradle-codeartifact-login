@@ -1,0 +1,19 @@
+plugins {
+    id "com.shinami.codeartifact-login"
+}
+
+codeArtifact {
+    domains {
+        shinami {
+            region = "us-east-1"
+        }
+    }
+}
+
+repositories {
+    codeArtifact.maven {
+        name = "aws"
+        domain = "shinami"
+        repository = "maven-release"
+    }
+}
